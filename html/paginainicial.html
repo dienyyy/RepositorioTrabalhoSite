@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmCat Fotografia</title>
+
+    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- meu css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- MENU + LOGO -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="../img/logo.svg" alt="Logo" height="35" class="me-2">FilmCat Fotografia
+            </a>
+
+            <!-- botão que aparece no celular -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ensaios">Ensaios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARROSSEL -->
+    <div id="home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/banner-ar-livre.jpg" class="d-block w-100" alt="gatinhos ao ar livre">
+                <div class="carousel-caption">
+                    <h2>Eternizando momentos especiais</h2>
+                    <p>Fotografias simples, leves e cheias de emoção.</p>
+                    <a href="#sobre" class="btn btn-rosa">Saiba mais</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-filhotes.jpg" class="d-block w-100" alt="filhotes no deck">
+                <div class="carousel-caption">
+                    <h2>Ensaios pra toda a família</h2>
+                    <p>Tem um estilo pra cada história.</p>
+                    <a href="#ensaios" class="btn btn-rosa">Ver ensaios</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-fotografo.jpg" class="d-block w-100" alt="gato fotografo">
+                <div class="carousel-caption">
+                    <h2>Agende o seu ensaio</h2>
+                    <p>Me chama que a gente combina!</p>
+                    <a href="#contato" class="btn btn-rosa">Contato</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- setinhas -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+   
+    <div class="container my-5">
+
+        <!-- SOBRE  -->
+        <section id="sobre" class="mb-5 aparecer">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-3">
+                    <img src="../img/sobre-fotografa.jpg" class="img-fluid rounded foto-sobre" alt="a Cat">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="titulo">Sobre mim</h2>
+
+                    <ul class="nav nav-tabs mb-3">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#quem" type="button">Quem sou eu</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#objetivo" type="button">Meu objetivo</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="quem">
+                            <p>Meu nome é Cat e sou apaixonada por fotografia. Gosto de registrar momentos especiais e transformar sentimentos em memórias.</p>
+                        </div>
+                        <div class="tab-pane fade" id="objetivo">
+                            <p>Meu objetivo é fazer ensaios simples, naturais e cheios de emoção.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS -->
+        <section id="ensaios" class="mb-5">
+            <h2 class="titulo text-center mb-4">Tipos de Ensaios</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-feminino.jpg" class="card-img-top" alt="Ensaio Feminino">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Ensaio Feminino</h3>
+                            <p class="card-text">Fotos delicadas e naturais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-gestante.jpg" class="card-img-top" alt="Gestante">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Gestante</h3>
+                            <p class="card-text">Registrando momentos especiais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-familia.jpg" class="card-img-top" alt="Família">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Família</h3>
+                            <p class="card-text">Memórias para guardar para sempre.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-casamento.jpg" class="card-img-top" alt="Casamento">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Casamento</h3>
+                            <p class="card-text">O grande dia registrado com carinho.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-newborn.jpg" class="card-img-top" alt="Filhotes">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Filhotes</h3>
+                            <p class="card-text">Fotos fofas dos primeiros dias.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../img/ensaio-retrato.jpg" class="card-img-top" alt="Retrato">
+                        <div class="card-body text-center">
+                            <h3 class="h5">Retrato</h3>
+                            <p class="card-text">Um retrato só seu, com personalidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section id="contato" class="mb-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="titulo text-center">Contato</h2>
+                    <p class="text-center">Entre em contato para agendar seu ensaio.</p>
+
+                    <form id="formContato" class="bg-white p-4 rounded shadow-sm needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome" required minlength="3">
+                            <div class="invalid-feedback">Digite seu nome (mínimo 3 letras).</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+                            <div class="invalid-feedback">Digite um email válido.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="tipo" class="form-label">Tipo de ensaio</label>
+                            <select class="form-select" id="tipo" required>
+                                <option value="">Escolha...</option>
+                                <option>Ensaio Feminino</option><option>Gestante</option><option>Família</option><option>Casamento</option><option>Filhotes</option><option>Retrato</option>
+                            </select>
+                            <div class="invalid-feedback">Escolha um tipo de ensaio.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required minlength="10"></textarea>
+                            <div class="invalid-feedback">Escreva pelo menos 10 letras.</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-rosa w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- MODAL-->
+    <div class="modal fade" id="modalSucesso" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enviado com sucesso!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    Obrigada, <strong id="nomeSucesso"></strong>! Recebi sua mensagem e já já eu respondo.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-rosa" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RODAPE -->
+    <footer>
+        <p class="mb-0">FilmCat Fotografia</p>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

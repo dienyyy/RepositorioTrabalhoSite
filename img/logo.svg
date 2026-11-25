@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Logo FilmCat">
+  <path d="M10 24 L14 6 L26 16 Z M54 24 L50 6 L38 16 Z" fill="#e944a7"/>
+  <rect x="6" y="14" width="52" height="38" rx="9" fill="#e944a7"/>
+  <circle cx="32" cy="33" r="14" fill="#1a1a1a"/>
+  <circle cx="32" cy="33" r="9" fill="#8a73b3"/>
+  <circle cx="28" cy="29" r="3" fill="#fff" opacity=".85"/>
+  <rect x="44" y="19" width="8" height="5" rx="2" fill="#fff" opacity=".9"/>
+</svg>
